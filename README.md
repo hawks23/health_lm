@@ -1,19 +1,37 @@
 # Health-lm
 
-**Create your own Health care report**
+**Create your own Health Care Report**
 
-## How to run
+## How to Run
 
-Make sure to set up the .env file with :
+1. **Set Up Environment Variables**
+   
+   Create a `.env` file and include the following API keys:
+   ```
+   GROQ_API_KEY = '<YOUR-GROQ-KEY>'
+   LANGCHAIN_API_KEY = '<YOUR-LANGCHAIN-API>'
+   TAVILY_API_KEY = '<YOUR-TAVILY-API>'
+   ```
 
-GROQ_API_KEY = '<YOUR-GROQ-KEY'
-LANGCHAIN_API_KEY = '<YOUR-LANGCHAIN-API>'
-TAVILY_API_KEY = '<YOUR-TAVILY-API>'
+2. **Clone the Repository**
+   
+   Run the command below to clone the repository:
+   ```
+   git clone https://github.com/hawks23/health_lm.git
+   ```
 
-Then,
+3. **Install Requirements**
+   
+   Navigate to the project directory and install the required Python packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-Run the following commands :
+4. **Run the Application**
+   
+   Start the Streamlit application using the command:
+   ```
+   streamlit run main.py
+   ```
 
-git clone https://github.com/hawks23/health_lm.git
-pip install -r requirements.txt
-streamlit run main.py
+---
