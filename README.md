@@ -8,9 +8,9 @@
    
    Create a `.env` file and include the following API keys:
    ```
-   GROQ_API_KEY = '<YOUR-GROQ-KEY>'
-   LANGCHAIN_API_KEY = '<YOUR-LANGCHAIN-API>'
-   TAVILY_API_KEY = '<YOUR-TAVILY-API>'
+   GROQ_API_KEY='<YOUR-GROQ-KEY>'
+   LANGCHAIN_API_KEY='<YOUR-LANGCHAIN-API>'
+   TAVILY_API_KEY='<YOUR-TAVILY-API>'
    ```
 
 2. **Clone the Repository**
