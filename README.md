@@ -1,13 +1,19 @@
-# Japan-GPT
+# Health-lm
 
-**Michibiku: Your Japan Guide**
+**Create your own Health care report**
 
-## Description
+## How to run
 
-Japan-GPT is a Streamlit application that serves as your personal guide to Japan. Ask anything about Japan and receive informative responses powered by advanced language models.
+Make sure to set up the .env file with :
 
-## Features
+GROQ_API_KEY = '<YOUR-GROQ-KEY'
+LANGCHAIN_API_KEY = '<YOUR-LANGCHAIN-API>'
+TAVILY_API_KEY = '<YOUR-TAVILY-API>'
 
-- Interactive Q&A about Japan
-- Streamlit web interface
-- Integration with LangChain
+Then,
+
+Run the following commands :
+
+git clone https://github.com/hawks23/health_lm.git
+pip install -r requirements.txt
+streamlit run main.py
